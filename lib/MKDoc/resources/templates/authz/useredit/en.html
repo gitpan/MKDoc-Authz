@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <h1>Changing permissions for ${self/user_login}</h1>
+    <form method="post">
+      <div petal:repeat="group self/list_groups">
+        <input petal:attributes="checked group/checked;
+                                 name    group/name;
+                                 value   group/label"
+               type="checkbox"
+               name="groupname"
+               value="groupname" /> <span petal:replace="group/name">admin</span>
+      </div>
+      <input type="submit" value="Save Changes" />
+    </form>
+  </body>
+</html>

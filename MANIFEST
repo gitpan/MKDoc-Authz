@@ -1,0 +1,18 @@
+Changes
+lib/MKDoc/Authz.pm
+lib/MKDoc/Authz/Group.pm
+lib/MKDoc/Authz/GroupItem.pm
+lib/MKDoc/Authz/Handler/Authorize.pm
+lib/MKDoc/Authz/Plugin/Authorize.pm
+lib/MKDoc/Authz/Plugin/UserEdit.pm
+lib/MKDoc/resources/authz/admin.conf
+lib/MKDoc/resources/authz/public.conf
+lib/MKDoc/resources/templates/authz/authorize/en.html
+lib/MKDoc/resources/templates/authz/useredit/en.html
+lib/MKDoc/Setup/Authz.pm
+Makefile.PL
+MANIFEST			This list of files
+README
+t/001_deploy_schema.t
+t/002_group.t
+META.yml                                 Module meta-data (added by MakeMaker)
